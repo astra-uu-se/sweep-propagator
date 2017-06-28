@@ -1,5 +1,5 @@
 # Note
-This is a fork of https://github.com/eastlund/sweep-propagator. It represents the source code for the thesis *********
+This is a fork of https://github.com/eastlund/gecode-diffn. It represents the source code for the thesis http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-325845
 # Sweep-Based Propagator for Diffn
 
 An implementation of a sweep-based propagator for the [Diffn](http://web.emn.fr/x-info/sdemasse/gccat/Cdiffn.html) constraint in the copying constraint programming solver [Gecode](http://www.gecode.org/). Builds on the ideas of Beldiceanu and Carlsson from their paper [Sweep as a generic pruning technique applied to the non-overlapping rectangles constraint (2001)](https://link.springer.com/chapter/10.1007%2F3-540-45578-7_26).
@@ -45,8 +45,9 @@ Include the file `sweep.cpp` in a constraint programming model written in Gecode
 
 # Report
 
-A MSc thesis describing and evaluating the propagator is currently awaiting publication. This entry in the readme will later point you to it.
+A MSc thesis describing and evaluating the propagator is avalible from 
 
+http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-325845
 # Notes
 
 The propagator currently does not support defining the hyperrectnagles' side-lengths as variables.
